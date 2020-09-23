@@ -50,7 +50,7 @@ public class JavaPractice {
       // inttobinary i=new inttobinary();
       //  Goodhippoproblem g=new Goodhippoproblem();
       // HANU h=new HANU();
-        QueueByStackd q=new QueueByStackd();
+    /*    QueueByStackd q=new QueueByStackd();
         q.enqueue(10);
         q.enqueue(20);
         q.enqueue(30);
@@ -61,5 +61,21 @@ public class JavaPractice {
         q.showstack();
         q.enqueue(50);
         q.showstack();
+
+     */
+      //  ProblemDaffo problemDaffo=new ProblemDaffo();
+
+        //<<<<----------Binary Tree Khud Ka Implementation with Testing------------->>>>>>>>>>
+        MyTree t=new MyTree();
+        t.insert(7);
+        t.insert(8);
+        t.insert(9);
+        t.insert(5);
+        t.insert(6);
+        t.insert(4);
+        System.out.println(t.find(4));
+        System.out.println(t.find(11));
+        t.PreOrder();
+
     }
 }
